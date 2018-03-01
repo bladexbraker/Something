@@ -1,0 +1,25 @@
+{
+  "name": "something",
+  "version": "1.0.0",
+  "description": "Something Good",
+  "main": "entry.js",
+  "scripts": {
+    "wp": "webpack -w",
+    "start": "nodemon entry.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bladexbraker/Something.git"
+  },
+  "author": "blade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bladexbraker/Something/issues"
+  },
+  "homepage": "https://github.com/bladexbraker/Something#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1"
+  }
+}
